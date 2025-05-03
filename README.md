@@ -1,6 +1,8 @@
 # Morse Wave Translator
 
-**Author:** Luca Bocaletto
+**Author:** Bocaletto Luca
+
+**Language:** Python
 
 ## Description
 
@@ -28,34 +30,3 @@ The application features a comprehensive user interface with various elements, i
 ## Utility
 
 In summary, "Morse Wave Translator" offers a simple way to record and decode audio signals into Morse code. Users can also open existing audio files for decoding and play back the recorded audio. This application is particularly useful for Morse code enthusiasts, amateur radio operators, or anyone interested in deciphering Morse signals from audio recordings.
-
-# Morse Wave Translator
-
-**Autore:** Bocaletto Luca
-
-## Descrizione
-
-Il software "Morse Wave Translator" è un'applicazione progettata per registrare segnali audio e successivamente decodificarli in codice Morse. L'applicazione sfrutta alcune librerie Python per svolgere questa operazione, comprese PyQt5 per la creazione dell'interfaccia grafica, sounddevice per la registrazione audio, soundfile per la lettura e la scrittura dei file audio, pygame per la riproduzione audio e numpy per la manipolazione dei dati audio.
-
-![Screenshot 2023-10-18 114601](https://github.com/elektronoide/MorseWaveTranslator/assets/134635227/9997c047-fda4-407c-af72-fda902e01197)
-
-### Componenti Principali
-
-Il software è suddiviso in due classi principali:
-
-1. **MorseDecoder:** Questa classe si occupa di decodificare i segnali audio registrati in codice Morse. Utilizza un dizionario che associa lettere e numeri ai rispettivi simboli del codice Morse. La decodifica si basa sulla lettura dell'ampiezza dei segnali audio: i picchi al di sopra di una soglia vengono considerati come "tratti" (dash), mentre i valori inferiori a tale soglia vengono considerati come "punti" (dot). La classe registra i segnali audio, li salva in un file audio e ne estrae il messaggio Morse decodificato.
-
-2. **MorseDecoderApp:** Questa classe gestisce l'interfaccia grafica dell'applicazione. Consente all'utente di selezionare il dispositivo audio di input, specificare la durata della registrazione, registrare audio, decodificare il segnale Morse registrato, aprire file audio esistenti per la decodifica e riprodurre l'audio registrato. L'applicazione fornisce anche una guida per l'utente.
-
-### Interfaccia Utente
-
-L'applicazione dispone di un'interfaccia utente completa, con vari elementi, tra cui:
-
-- Bottoni per l'acquisizione e la decodifica audio.
-- Campi di input per la durata della registrazione.
-- Una lista a discesa per la selezione del dispositivo di input.
-- Un'area di testo per visualizzare i risultati della decodifica e le informazioni sulla registrazione.
-
-## Utilità
-
-In sintesi, "Morse Wave Translator" offre un modo semplice per registrare e decodificare segnali audio in codice Morse. L'utente può anche aprire file audio esistenti per la decodifica e riprodurre l'audio registrato. Questa applicazione è particolarmente utile per gli appassionati di Morse, gli operatori radioamatoriali o chiunque sia interessato a decifrare segnali Morse da registrazioni audio.
