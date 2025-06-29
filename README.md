@@ -30,3 +30,11 @@ The application features a comprehensive user interface with various elements, i
 ## Utility
 
 In summary, "Morse Wave Translator" offers a simple way to record and decode audio signals into Morse code. Users can also open existing audio files for decoding and play back the recorded audio. This application is particularly useful for Morse code enthusiasts, amateur radio operators, or anyone interested in deciphering Morse signals from audio recordings.
+
+---
+
+**Maintainer Update**
+
+All legacy projects from the old `@Elektronoide` GitHub account are now officially maintained by **@bocaletto-luca**. Please direct any issues, pull requests, and stars to **@bocaletto-luca** for all future updates.
+
+---
